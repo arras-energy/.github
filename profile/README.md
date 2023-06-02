@@ -1,3 +1,5 @@
+![https://github.com/lf-energy/artwork/blob/master/projects/arras-energy/arras-energy-color.svg](https://github.com/lf-energy/artwork/blob/main/projects/arras/horizontal/color/arras-horizontal-color.png)
+
 # Welcome to Arras Energy
 
 Arras Energy is the commercial release of HiPAS GridLAB-D supported and distributed by LF Energy.
