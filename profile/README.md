@@ -1,4 +1,44 @@
-Welcome to Arras Energy
+# Welcome to Arras Energy
+
+Arras Energy is the commercial release of HiPAS GridLAB-D supported and distributed by LF Energy.
+
+The following options are available for using Arras Energy:
+
+## Run on Docker
+
+~~~
+docker run -it -v $PWD:/model slacgismo/gridlabd:latest gridlabd -W /model [LOADOPTIONS] [FILENAME.EXT] [RUNOPTIONS]
+~~~
+
+## Run on AWS
+
+1. Sign into your AWS console.
+2. Launch an EC2 instance.
+3. Search the community AMI for images starting with `gridlabd` in the `us-west-1` (N. California) region.
+4. Choose an instance type with sufficient memory, e.g., >4GB.
+5. Download and save your keypair.
+6. Launch the instance.
+7. Connect to the instance.
+8. Download your model into the instance, e.g., from GitHub.
+9. Run the simulation using the usual command line options.
+10. Save the results, e.g., to GitHub.
+
+## Download on Mac, Windows WSL, or Ubuntu Linux
+
+~~~
+curl -sL http://install.gridlabd.us/install.sh | [sudo] sh
+~~~
+
+## Build your own
+
+~~~
+git clone https://code.gridlabd.us/ [-b BRANCH] gridlabd
+cd gridlabd
+./setup.sh --local
+./build.sh --system --validate
+~~~
+
+# Current Project Status
 
 | Repository | Build | Deploy |
 | :---: | :---: | :---: |
