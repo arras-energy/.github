@@ -10,6 +10,8 @@ The following options are available for using Arras Energy:
 docker run -it -v $PWD:/model slacgismo/gridlabd:latest gridlabd -W /model [LOADOPTIONS] [FILENAME.EXT] [RUNOPTIONS]
 ~~~
 
+See [Dockerhub HiPAS repositories](https://hub.docker.com/repository/docker/hipas/gridlabd/general) for a list of available images.
+
 ## Run on AWS
 
 1. Sign into your AWS console.
@@ -23,16 +25,24 @@ docker run -it -v $PWD:/model slacgismo/gridlabd:latest gridlabd -W /model [LOAD
 9. Run the simulation using the usual command line options.
 10. Save the results, e.g., to GitHub.
 
+You can also start the instance from the command line:
+
+~~~
+aws ec2 run-instances --image-id AMINAME --count 1 --instance-type INSTANCETYPE --key-name KEYPAIRNAME --security-group-ids SECURITYGROUPID --subnet-id SUBNETID
+~~~
+
+You can search the [AWS AMI Catalog](https://us-west-1.console.aws.amazon.com/ec2/home?AMICatalog%3A=&region=us-west-1#AMICatalog:) for Community AMIs matching "Arras Energy HiPAS GridLAB-D" in the `us-west-1` region. The version number will be included in the name.
+
 ## Download on Mac, Windows WSL, or Ubuntu Linux
 
 ~~~
-curl -sL http://install.gridlabd.us/install.sh | [sudo] sh
+curl -sL https://install.gridlabd.us/install.sh | [sudo] sh
 ~~~
 
 ## Build your own
 
 ~~~
-git clone https://code.gridlabd.us/ [-b BRANCH] gridlabd
+git clone https://source.gridlabd.us/ [-b BRANCH] gridlabd
 cd gridlabd
 ./setup.sh --local
 ./build.sh --system --validate
