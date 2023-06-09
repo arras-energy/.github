@@ -2,7 +2,7 @@
 
 # Welcome to Arras Energy
 
-Arras Energy is the commercial release of HiPAS GridLAB-D supported and distributed by [Linux Foundation Energy](https://lfenergy.org).
+Arras Energy is the commercial release of [HiPAS GridLAB-D](https://www.energizeinnovation.fund/projects/hipas-gridlab-d-high-performance-agent-based-simulation-using-gridlab-d) supported and distributed by [Linux Foundation Energy](https://lfenergy.org).
 
 The following options are available for using Arras Energy:
 
