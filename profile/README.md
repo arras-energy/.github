@@ -12,7 +12,7 @@ The following options are available for using Arras Energy:
 docker run -it -v $PWD:/model slacgismo/gridlabd:latest gridlabd -W /model [LOADOPTIONS] [FILENAME.EXT] [RUNOPTIONS]
 ~~~
 
-See [Dockerhub HiPAS repositories](https://hub.docker.com/repository/docker/hipas/gridlabd/general) for a list of available images.
+See [Dockerhub HiPAS repositories](https://hub.docker.com/r/hipas/gridlabd/tags) for a list of available images.
 
 ## Run on AWS
 
