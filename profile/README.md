@@ -6,6 +6,10 @@ Arras Energy is the commercial-grade release of [HiPAS GridLAB-D](https://www.en
 
 The following options are available for using Arras Energy:
 
+## Run on GitHub
+
+You can run Arras Energy with GitHub Actions using the template https://github.com/gridlabd-tutorials/.new_project. The simulation results are stored in a downloadable file that can accessed from the `Actions` tab in your GitHub project. A tutorial for using Arras Energy with GitHub is available at https://github.com/gridlabd-tutorials.
+
 ## Run on Docker
 
 ~~~
