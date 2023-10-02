@@ -60,7 +60,7 @@ cd gridlabd
 
 ### Access remote resources
 
-HiPAS GridLAB-D requires access to many remote resources. To ensure that access is possible, please verify that your site include support for the [HiPAS GridLAB-D cybersecurity plan](/CYBERSECURITY.md).
+HiPAS GridLAB-D requires access to many remote resources. To ensure that access is possible, please verify that your site supports the [HiPAS GridLAB-D cybersecurity plan](/CYBERSECURITY.md).
 
 # Current Project Status
 
