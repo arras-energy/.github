@@ -17,7 +17,7 @@ You can run Arras Energy with GitHub Actions using the template https://github.c
 ## Run on Docker
 
 ~~~
-docker run -it -v $PWD:/model slacgismo/gridlabd:latest gridlabd -W /model [LOADOPTIONS] [FILENAME.EXT] [RUNOPTIONS]
+docker run -it -v $PWD:/model lfenergy/arras:latest gridlabd -W /model [LOADOPTIONS] [FILENAME.EXT] [RUNOPTIONS]
 ~~~
 
 See [Dockerhub HiPAS repositories](https://hub.docker.com/r/hipas/gridlabd/tags) for a list of available images.
