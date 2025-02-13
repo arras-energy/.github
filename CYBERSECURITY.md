@@ -29,6 +29,7 @@ The following list is an enumeration of the network resources used by Arras Ener
 | *.pge.com | http(s) | 80,443 | Utility data source
 | *.pypi.org | http(s) | 80,443 | Ground elevation module
 | *.python.org | http(s) | 80,443 | JSON data converter support
+| *.rap.ucar.edu | http(s) | 80,443 | National Center for Atmospheric Research (NCAR) weather data
 | *.sce.com | http(s) | 80,443 | Utility data source
 | *.sdge.com | http(s) | 80,443 | Utility data source
 | *.shoutwiki.com | http(s) | 80,443 | Online documentation for underlying GridLAB-D version
@@ -40,6 +41,7 @@ The following list is an enumeration of the network resources used by Arras Ener
 | www.alexonlinux.com | http(s) | 80,443 | User support for JSON connection module 
 | www.digitalmars.com | http(s) | 80,443 | User support for device controller module
 | www.ecma-international.org | http(s) | 80,443 | User support for JSON library
+| www.moratech.com | http(s) | 80,443 | METAR station list (backup for UCAR)
 | www.partow.net | https | 443 | Access to airport location database
 | www.psc.isr.umich.edu | https | 443 | User support reference for zipcodes database
 | www.variablefrequencydrive.org | http | 80 | VFD support documentation access
