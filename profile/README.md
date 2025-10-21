@@ -1,3 +1,5 @@
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11254/badge)](https://www.bestpractices.dev/projects/11254)
+
 # Welcome to The Linux Foundation's Arras Energy Project
 
 Arras Energy is the commercial-grade release of [HiPAS GridLAB-D](https://www.energizeinnovation.fund/projects/hipas-gridlab-d-high-performance-agent-based-simulation-using-gridlab-d) supported and distributed by [Linux Foundation Energy](https://lfenergy.org).
