@@ -22,7 +22,7 @@ You can run Arras Energy with GitHub Actions using the template https://github.c
 docker run -it -v $PWD:/model lfenergy/arras:latest gridlabd -W /model [LOADOPTIONS] [FILENAME.EXT] [RUNOPTIONS]
 ~~~
 
-See [Dockerhub HiPAS repositories](https://hub.docker.com/r/hipas/gridlabd/tags) for a list of available images.
+See [Dockerhub Arras repositories](https://hub.docker.com/r/lfenergy/arras/tags) for a list of available images.
 
 ## Run on AWS
 
@@ -62,7 +62,7 @@ cd gridlabd
 
 ### Access remote resources
 
-HiPAS GridLAB-D requires access to many remote resources. To ensure that access is possible, please verify that your site supports the [HiPAS GridLAB-D cybersecurity plan](/CYBERSECURITY.md).
+Arras Energy requires access to many online resources. To ensure that access is possible, please verify that your site supports the [Arras Energy cybersecurity plan](/CYBERSECURITY.md).
 
 # Current Project Status
 
