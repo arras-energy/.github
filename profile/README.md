@@ -6,7 +6,7 @@ Arras Energy is the commercial-grade release of [HiPAS GridLAB-D](https://www.en
 
 The documentation for this project is located at http://docs.gridlabd.us/.
 
-This organization contains the source code and support repositories to Arras Energy, which was developed by [SLAC National Accelerator Laboratory](https://slac.stanford.edu) for the [California Energy Commission](https://www.energy.ca.gov) under grant [EPC-17-046](https://www.energy.ca.gov/filebrowser/download/1147).  This version of GridLAB-D is a commercial-grade version of the [US Department of Energy's research version of GridLAB-D developed by Pacific Northwest National Laboratory](https://github.com/gridlab-d/gridlab-d).
+This organization contains the source code and support repositories to Arras Energy, which was developed by [SLAC National Accelerator Laboratory](https://slac.stanford.edu) for the [California Energy Commission](https://www.energy.ca.gov) under grant [EPC-17-046](https://www.energy.ca.gov/filebrowser/download/1147).  This version of GridLAB-D is a commercial-grade version of the [US Department of Energy's research version of GridLAB-D](https://github.com/gridlab-d/gridlab-d)  developed by Pacific Northwest National Laboratory.
 
 *Note*: This fork of [GridLAB-D](https://github.com/gridlab-d/gridlab-d) does not support MS Windows directly. You must use docker or a virtual machine running linux.
 
