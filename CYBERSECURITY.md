@@ -15,7 +15,7 @@ The following list is an enumeration of the network resources used by Arras Ener
 | *.github.com | http(s) | 80,443 | Code support for most Arras Energy modules
 | *.githubusercontent.com | http(s) | 80,443 | Data support for most Arras Energy modules
 | *.google.com | http(s) | 80,443 | KML support
-| *.gov | http(s) | 80,443 | Government data sources
+| *.gov | http(s) | 80,443 | United State government data sources
 | *.gridlabd.org | http(s) | 80,443 | User support for underlying GridLAB-D libraries from the US Department of Energy
 | *.gridlabd.us | http(s) | 80,443 | User support for underlying HiPAS GridLAB-D libraries from the California Energy Commission
 | *.iastate.edu | http(s) | 80,443 | User support for residential load model and powerline sag calculations
