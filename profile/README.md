@@ -48,16 +48,16 @@ You can search the [AWS AMI Catalog](https://us-west-1.console.aws.amazon.com/ec
 ## Download on Mac, Windows WSL, or Ubuntu Linux
 
 ~~~
-curl -sL https://install.gridlabd.us/install.sh | [sudo] sh
+curl -sL https://install.arras.energy/install.sh | [sudo] sh
 ~~~
 
 ## Build your own
 
 ~~~
-git clone https://source.gridlabd.us/ [-b BRANCH] gridlabd
+git clone https://github.com/arras-energy/gridlabd
 cd gridlabd
 ./setup.sh --local
-./build.sh --system --validate
+./build.sh --system --parallel --validate
 ~~~
 
 ### Access remote resources
